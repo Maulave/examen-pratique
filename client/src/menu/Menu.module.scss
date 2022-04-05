@@ -1,0 +1,40 @@
+.containerMenu {
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
+    border-right: 1px solid grey;
+    height: 100vh;
+
+    form {
+        display: flex;
+        flex-flow: column;
+
+        input {
+            margin: 0rem 0 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+
+        button {
+            background-color: var(--separator);
+            border: none;
+            padding: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        margin-top: 4rem;
+    }
+
+    ul {
+        li {
+            font-size: 1.4rem;
+            border-bottom: 1px solid grey;
+            padding: 1rem 0rem;
+        }
+    }
+}
